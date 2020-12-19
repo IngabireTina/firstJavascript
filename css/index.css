@@ -19,7 +19,20 @@ nav .container h3{
     
 }
 nav .container a:hover{
-    transform: scale(2);
+    transform: scale(1.5);
 }
+.jumbotron{
+    display: flex;
+}
+.text-left{
+    width: 45%;
+}
+.text-left span{
+    color: crimson;
 
+}
+.text-right{
+    margin-top: 30px;
+    width: 50%;
+}
 
