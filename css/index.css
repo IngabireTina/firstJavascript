@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-image: url('../images/image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+nav .container h3{
+    color: white;
+    text-decoration: none;
+    float: right;
+    
+   
+    
+}
+nav .container a:hover{
+    transform: scale(2);
+}
+
+
