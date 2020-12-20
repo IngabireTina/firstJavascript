@@ -20,6 +20,7 @@ nav .container h3{
 }
 nav .container a:hover{
     transform: scale(1.5);
+    cursor: pointer;
 }
 .jumbotron{
     display: flex;
@@ -35,4 +36,10 @@ nav .container a:hover{
     margin-top: 30px;
     width: 50%;
 }
+.table1{
+    width: 50%;
+    float: right;
+}
+
+
 
