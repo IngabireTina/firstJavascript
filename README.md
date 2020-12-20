@@ -2,15 +2,15 @@
 
 ## AKAN Project
 <hr>
-# Description<br>
--------------<br>
-## The project is an application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+ Description<br>
+---------------<br>
+The project is an application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
 <hr>
-# About Author<br>
+ About Author<br>
 --------------<br>
-## Done by INGABIRE Clementine
+ Done by INGABIRE Clementine
 <hr>
-# Project SetUp Instructions<br>
+ Project SetUp Instructions<br>
 ------------------------------<br>
 <ul>
   <li>VsCode: Editor to write code</li>
@@ -20,7 +20,7 @@
   
 </ul>
 <hr>
-# Technologies Used<br>
+ Technologies Used<br>
 -------------------<br>
 <ul>
   <li>HTML</li>
@@ -30,7 +30,7 @@
   
 </ul>
 <hr>
-# Contact Info<br>
+ Contact Info<br>
 --------------<br>
 <ul>
   <li>Email: ingabire067@gmail.com</li>
@@ -38,6 +38,6 @@
   
 </ul>
 <hr>
-# Link to Live site on GitHub Pages<br>
+ Link to Live site on GitHub Pages<br>
 --------------------------------------<br>
 
