@@ -22,7 +22,7 @@ function findDay(dob){
 }
 
 function displayAkanName(day, gender){
-   
+    if(validateData()){
         if(gender === "female"){
             if(day === 0){
                 alert("your Akan name is: Akosua");
@@ -61,7 +61,20 @@ function displayAkanName(day, gender){
                 alert("invalid day");
             }
         }
-   
+    }else{
+        alert("invalid date");
+    }
+}
+function validateData(){
+    var dob = getDob();
+    var m = parseInt(dob.substring(5,7));
+    var d = parseInt(dob.substring(8,10));
+
+    if ((d >= 1 || d <= 31) && (m > 0 || m <= 12)){
+        return true;
+    }else{
+        return false;
+    }
 }
 
 
