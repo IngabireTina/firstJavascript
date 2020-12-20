@@ -1,5 +1,6 @@
 function getGender(){
     var gender = document.getElementById("gender").value;
+    return gender;
 }
 function getDob(){
     var dob = document.getElementById("dob").value;
@@ -64,7 +65,7 @@ function displayAkanName(day, gender){
     }else{
         alert("invalid date");
     }
-}
+}  
 function validateData(){
     var dob = getDob();
     var m = parseInt(dob.substring(5,7));
