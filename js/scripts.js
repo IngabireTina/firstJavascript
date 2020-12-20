@@ -21,3 +21,47 @@ function findDay(dob){
     return dayOfTheWeek;
 }
 
+function displayAkanName(day, gender){
+   
+        if(gender === "female"){
+            if(day === 0){
+                alert("your Akan name is: Akosua");
+            }else if(day === 1){
+                alert("your Akan name is: Adwoa");
+            }else if(day === 2){
+                alert("your Akan name is: Abenaa");
+            }else if(day === 3){
+                alert("your Akan name is: Akua");
+
+            }else if(day === 4){
+                alert("your Akan name is: Yaa");
+            }else if(day === 5){
+                alert("your Akan name is: Afua");
+            }else if(day === 6){
+                alert("your Akan name is: Ama");
+            }else{
+                alert("invalid day");
+            }
+        }else{
+            if(day === 0){
+                alert("your Akan name is: Kwasi");
+            }else if(day === 1){
+                alert("your Akan name is: Kwadwo");
+            }else if(day === 2){
+                alert("your Akan name is: Kwabena");
+            }else if(day === 3){
+                alert("your Akan name is: Kwaku");
+            }else if(day === 4){
+                alert("your Akan name is: Yaw");
+            }else if(day === 5){
+                alert("your Akan name is: Kofi");
+            }else if(day === 6){
+                alert("your Akan name is: Kwame");
+            }else{
+                alert("invalid day");
+            }
+        }
+   
+}
+
+
