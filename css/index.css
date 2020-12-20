@@ -25,6 +25,7 @@ nav .container a:hover{
 }
 .jumbotron{
     display: flex;
+    justify-content: center;
 }
 .text-left{
     width: 45%;
@@ -36,6 +37,7 @@ nav .container a:hover{
 .text-right{
     margin-top: 30px;
     width: 50%;
+    
 }
 .table1{
     width: 50%;
