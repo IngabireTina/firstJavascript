@@ -38,7 +38,11 @@ The project is an application that takes a user's birthday and calculates the da
   
 </ul>
 <hr>
- Link to Live site on GitHub Pages<br>
+License and Copyright information<br>
+------------------------------------<br>
+Alright reserved @ INGABIRE 2020
+
+Link to Live site on GitHub Pages<br>
 --------------------------------------<br>
 https://ingabiretina.github.io/firstJavascript/
 
