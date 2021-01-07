@@ -1,81 +1,153 @@
-function getGender(){
-    var gender = document.getElementById("gender").value;
-    return gender;
-}
-function getDob(){
-    var dob = document.getElementById("dob").value;
-    return dob;
-}
-document.getElementById("submitBtn").addEventListener('click', function(){
-    var gender = getGender();
-    var dob = getDob();
-    var day = findDay(dob);
-    displayAkanName(day, gender);
-})
-function findDay(dob){
-    var cc = parseInt(dob.substring(0,2));
-    var yy = parseInt(dob.substring(2,4));
-    var mm = parseInt(dob.substring(5,7));
-    var dd = parseInt(dob.substring(8,10));
-   
-    var dayOfTheWeek = (((cc/4)-2*cc-1) + (5*yy/4) + (26*(mm+1)/10) + dd ) % 7;
-    return dayOfTheWeek;
-}
+var down = document.getElementById('result1'); 
+var downn = document.getElementById('result2'); 
+          
+        function calculate() { 
+            var year = document.getElementById('year').value;
+            var mm = document.getElementById('month').value; 
+            var dd = document.getElementById('day').value; 
+            var gender = document.getElementById('gender').value;  
 
-function displayAkanName(day, gender){
-    if(validateData()){
-        if(gender === "female"){
-            if(day === 0){
-                alert("your Akan name is: Akosua");
-            }else if(day === 1){
-                alert("your Akan name is: Adwoa");
-            }else if(day === 2){
-                alert("your Akan name is: Abenaa");
-            }else if(day === 3){
-                alert("your Akan name is: Akua");
 
-            }else if(day === 4){
-                alert("your Akan name is: Yaa");
-            }else if(day === 5){
-                alert("your Akan name is: Afua");
-            }else if(day === 6){
-                alert("your Akan name is: Ama");
-            }else{
-                alert("invalid day");
+            if( mm > 12 || mm <= 0 ) {
+                alert( "Please provide a valid month!" );
+                return false;
+             }
+            if( dd > 31 || dd <= 0 ) {
+                alert( "Please provide a valid day!" );
+                return false;
             }
-        }else{
-            if(day === 0){
-                alert("your Akan name is: Kwasi");
-            }else if(day === 1){
-                alert("your Akan name is: Kwadwo");
-            }else if(day === 2){
-                alert("your Akan name is: Kwabena");
-            }else if(day === 3){
-                alert("your Akan name is: Kwaku");
-            }else if(day === 4){
-                alert("your Akan name is: Yaw");
-            }else if(day === 5){
-                alert("your Akan name is: Kofi");
-            }else if(day === 6){
-                alert("your Akan name is: Kwame");
-            }else{
-                alert("invalid day");
+            if( year == '' ) {
+                alert( "Please provide a valid year!" );
+                return false;
             }
+            if( mm == '' ) {
+                alert( "Please provide a valid month!" );
+                return false;
+            }
+            if( dd == '' ) {
+                alert( "Please provide a valid day!" );
+                return false;
+            }
+        
+  
+            res = []; 
+              
+            for (var i = 0, len = year.length; i < len; i += 1) { 
+                res.push(+year.charAt(i)); 
+            }
+
+            var y=0
+            for (var i = 3; i>1 ; i--){
+                y = 10 * y + res[i];
+            }
+            var yy=String(y).split("").reverse().join("");
+
+            var cc=0;
+            for (var i =0; i<2 ; i++){
+                cc = 10 * cc + res[i];
+                }
+
+            var day = (((cc/4)-2*cc-1)+((5*yy/4))+((26*(mm+1)/10))+dd)%7;
+            day = Math.floor(day);    
+            
+            
+
+            // var akan;
+            if( gender == 'female'){
+                if( day == 1){
+                   
+                    alert("your Akan name is: Adwoa");
+                   
+                }
+                else if( day == 2){
+                   
+                    alert("your Akan name is: Abenaa");
+                }
+                else if( day == 3){
+                    
+                    alert("your Akan name is: Akua");
+                }
+                else if( day == 4){
+                   
+                    alert("your Akan name is: Yaa");
+                }
+                else if( day == 5){
+                    
+                    alert("your Akan name is: Afua");
+                }
+                else if( day == 6){
+                   
+                    alert("your Akan name is: Ama");
+                }
+                else {
+                    
+                    alert("your Akan name is: Akosua");
+                }
+               
+            }
+
+            else {
+                if( day == 1){
+                    
+                    alert("your Akan name is: Kwadwo");
+                }
+                else if( day == 2){
+                    
+                    alert("your Akan name is: kwabena");
+                }
+                else if( day == 3){
+                    
+                    alert("your Akan name is: Kwaku");
+                }
+                else if( day == 4){
+                    
+                    alert("your Akan name is: Yaw");
+                }
+                else if( day == 5){
+                    
+                    alert("your Akan name is: Kofi");
+                    
+                }
+                else if( day == 6){
+                    
+                    alert("your Akan name is: Kwame");
+                }
+                else {
+                    
+                    alert("your Akan name is: Kwasi");
+                }
+               
+            }
+
+            // if (day==1){
+            //     name= 'Monday';
+            // }
+            // else if(day==2){
+            //     name='Tursday';
+            // }
+            // else if(day==3){
+            //     name='Wednesday';
+            // }
+            // else if(day==4){
+            //     name='Thursday';
+            // }
+            // else if(day==5){
+            //     name='Friday';
+            // }
+            // else if(day==6){
+            //     name='Saturday';
+            // }
+            // else {
+            //     name='Sunday';
+            // }
+
+            // down.innerHTML = name;
+            downn.innerHTML =  akan;
+
+            // var x = document.getElementById("myDIV");
+            // if (x.style.display === "none") {
+            //   x.style.display = "block";
+            // } else {
+            //   x.style.display = "none";
+            // }
         }
-    }else{
-        alert("invalid date");
-    }
-}  
-function validateData(){
-    var dob = getDob();
-    var m = parseInt(dob.substring(5,7));
-    var d = parseInt(dob.substring(8,10));
-
-    if ((d >= 1 || d <= 31) && (m > 0 || m <= 12)){
-        return true;
-    }else{
-        return false;
-    }
-}
-
-

@@ -42,9 +42,19 @@ nav .container a:hover{
 .table1{
     width: 50%;
     float: right;
+    margin-top: 60px;
+ 
 }
 .text-left h1 span{
     color: blue;
+}
+footer{
+    color: white;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    float: bottom;
+    margin-bottom: 0px;
 }
 
 
