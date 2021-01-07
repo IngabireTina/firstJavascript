@@ -38,11 +38,29 @@ The project is an application that takes a user's birthday and calculates the da
   
 </ul>
 <hr>
-License and Copyright information<br>
-------------------------------------<br>
-Alright reserved @ INGABIRE 2020
 
+
+Cloning
+---------
+Clone this repository to your local machine using this link
+after cloning it, open it in yiur code editor and run it in your browser.
+<hr>
+BDD
+----
+<ul>
+  <li>User enter a Valid Year</li>
+  <li>User enter a valid Month</li>
+  <li>User enter a valid Day</li>
+  <li>User should choose gender</li>
+</ul>
+<hr>
 Link to Live site on GitHub Pages<br>
 --------------------------------------<br>
 https://ingabiretina.github.io/firstJavascript/
+
+<hr>
+
+License and Copyright information<br>
+------------------------------------<br>
+Alright reserved @ INGABIRE 2020
 
