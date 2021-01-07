@@ -1,7 +1,5 @@
-var down = document.getElementById('result1'); 
-var downn = document.getElementById('result2'); 
-          
-        function calculate() { 
+   function calculate()
+   { 
             var year = document.getElementById('year').value;
             var mm = document.getElementById('month').value; 
             var dd = document.getElementById('day').value; 
@@ -52,102 +50,84 @@ var downn = document.getElementById('result2');
             
             
 
-            // var akan;
             if( gender == 'female'){
-                if( day == 1){
+                if( day == 0){
                    
                     alert("your Akan name is: Adwoa");
                    
                 }
-                else if( day == 2){
+                else if( day == 1){
                    
                     alert("your Akan name is: Abenaa");
                 }
-                else if( day == 3){
+                else if( day == 2){
                     
                     alert("your Akan name is: Akua");
                 }
-                else if( day == 4){
+                else if( day == 3){
                    
                     alert("your Akan name is: Yaa");
                 }
-                else if( day == 5){
+                else if( day == 4){
                     
                     alert("your Akan name is: Afua");
                 }
-                else if( day == 6){
+                else if( day == 5){
                    
                     alert("your Akan name is: Ama");
                 }
+                else if( day == 6){
+                   
+                    alert("your Akan name is: Akosua");
+                }
                 else {
                     
-                    alert("your Akan name is: Akosua");
+                    alert("Invalid Day ");
                 }
                
             }
 
             else {
-                if( day == 1){
+                if( day == 0){
                     
                     alert("your Akan name is: Kwadwo");
                 }
-                else if( day == 2){
+                else if( day == 1){
                     
                     alert("your Akan name is: kwabena");
                 }
-                else if( day == 3){
+                else if( day == 2){
                     
                     alert("your Akan name is: Kwaku");
                 }
-                else if( day == 4){
+                else if( day == 3){
                     
                     alert("your Akan name is: Yaw");
                 }
-                else if( day == 5){
+                else if( day == 4){
                     
                     alert("your Akan name is: Kofi");
                     
                 }
-                else if( day == 6){
+                else if( day == 5){
                     
                     alert("your Akan name is: Kwame");
                 }
-                else {
+                else if( day == 6){
                     
                     alert("your Akan name is: Kwasi");
+                }
+                else {
+                    
+                    alert("Invalid Day");
                 }
                
             }
 
-            // if (day==1){
-            //     name= 'Monday';
-            // }
-            // else if(day==2){
-            //     name='Tursday';
-            // }
-            // else if(day==3){
-            //     name='Wednesday';
-            // }
-            // else if(day==4){
-            //     name='Thursday';
-            // }
-            // else if(day==5){
-            //     name='Friday';
-            // }
-            // else if(day==6){
-            //     name='Saturday';
-            // }
-            // else {
-            //     name='Sunday';
-            // }
+       
 
-            // down.innerHTML = name;
-            downn.innerHTML =  akan;
-
-            // var x = document.getElementById("myDIV");
-            // if (x.style.display === "none") {
-            //   x.style.display = "block";
-            // } else {
-            //   x.style.display = "none";
-            // }
         }
+
+
+
+
