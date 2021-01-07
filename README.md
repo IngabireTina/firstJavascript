@@ -43,13 +43,6 @@ The project is an application that takes a user's birthday and calculates the da
 
 <hr>
 
-Cloning
----------
-Clone this repository to your local machine using this link
-https://github.com/IngabireTina/firstJavascript.git
-
-<hr>
-
 BDD
 ----
 <ul>
