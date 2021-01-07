@@ -33,16 +33,6 @@ The project is an application that takes a user's birthday and calculates the da
 
 <hr>
 
- Contact Info<br>
---------------<br>
-<ul>
-  <li>Email: ingabire067@gmail.com</li>
-  <li>Telephone: +250789942598</li>
-  
-</ul>
-
-<hr>
-
 BDD
 ----
 <ul>
@@ -57,6 +47,16 @@ BDD
 Link to Live site on GitHub Pages<br>
 --------------------------------------<br>
 https://ingabiretina.github.io/firstJavascript/
+
+<hr>
+
+ Contact Info<br>
+--------------<br>
+<ul>
+  <li>Email: ingabire067@gmail.com</li>
+  <li>Telephone: +250789942598</li>
+  
+</ul>
 
 <hr>
 
