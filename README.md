@@ -17,9 +17,10 @@ The project is an application that takes a user's birthday and calculates the da
   <li>Chrome: Display the Content</li>
   <li>Git and GitHub Account</li>
   <li>Bootstrap File</li>
-  
 </ul>
+
 <hr>
+
  Technologies Used<br>
 -------------------<br>
 <ul>
@@ -29,7 +30,9 @@ The project is an application that takes a user's birthday and calculates the da
   <li>Javascript</li>
   
 </ul>
+
 <hr>
+
  Contact Info<br>
 --------------<br>
 <ul>
@@ -37,14 +40,16 @@ The project is an application that takes a user's birthday and calculates the da
   <li>Telephone: +250789942598</li>
   
 </ul>
-<hr>
 
+<hr>
 
 Cloning
 ---------
 Clone this repository to your local machine using this link
-after cloning it, open it in yiur code editor and run it in your browser.
+https://github.com/IngabireTina/firstJavascript.git
+
 <hr>
+
 BDD
 ----
 <ul>
@@ -53,7 +58,9 @@ BDD
   <li>User enter a valid Day</li>
   <li>User should choose gender</li>
 </ul>
+
 <hr>
+
 Link to Live site on GitHub Pages<br>
 --------------------------------------<br>
 https://ingabiretina.github.io/firstJavascript/
